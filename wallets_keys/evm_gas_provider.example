@@ -1,0 +1,3 @@
+# 一行、只放一組私鑰。這個錢包負責把 gas 轉給沒有原生幣的 EVM 來源錢包。
+# 複製成 wallets_keys/evm_gas_provider。
+# 然後把 config/evm.json 的 gasProviderFile 設成 "wallets_keys/evm_gas_provider"。

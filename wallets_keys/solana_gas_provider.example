@@ -1,0 +1,2 @@
+# 一行、只放一組 gas 錢包私鑰。
+# 複製成 wallets_keys/solana_gas_provider。留空或不要這個檔，就由各舊錢包自己付手續費。

@@ -1,0 +1,31 @@
+{
+  "name": "sweap",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "同一個專案裡的 EVM 錢包彙整與 Solana 租金回收",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "evm": "tsx src/evm/index.ts --config config/evm.json",
+    "solana": "tsx src/solana/menu.ts",
+    "solana:scan": "tsx src/solana/scan.ts",
+    "solana:reclaim": "tsx src/solana/reclaim.ts",
+    "test": "tsx test/plan-test.mjs && tsx test/pack-test.mjs && tsx --test test/filters.test.ts",
+    "test:solana-sim": "tsx test/transfer-sim-test.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.9",
+    "@solana/web3.js": "^1.95.4",
+    "bs58": "^6.0.0",
+    "viem": "^2.38.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

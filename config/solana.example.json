@@ -1,0 +1,13 @@
+{
+  "rpcUrl": "",
+  "receiver": "",
+  "receiverMustExist": true,
+  "transferTokensBeforeClose": true,
+  "sweepNativeSol": true,
+  "keepSol": 0,
+  "requireConfirmation": true,
+  "minReclaimSol": 0,
+  "priorityFeeMicroLamports": 0,
+  "maxAccountsPerTx": 25,
+  "delayMs": 400
+}

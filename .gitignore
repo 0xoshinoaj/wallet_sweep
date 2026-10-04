@@ -1,0 +1,23 @@
+node_modules/
+dist/
+out/
+.DS_Store
+
+.env
+sweep-plan.json
+
+# 含私人 RPC 或 API 金鑰。範例檔可以提交。
+config/evm.json
+config/solana.json
+*.log
+
+# 私鑰。範例檔（*.example）可以提交。
+wallets_keys/evm_keys
+wallets_keys/evm_gas_provider
+wallets_keys/solana_keys
+wallets_keys/solana_gas_provider
+
+# 舊位置
+keys.txt
+gas-funder.txt
+wallets.txt

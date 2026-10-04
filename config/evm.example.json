@@ -1,0 +1,29 @@
+{
+  "receiver": "",
+  "keysFile": "wallets_keys/evm_keys",
+  "gasProviderFile": "wallets_keys/evm_gas_provider",
+  "discovery": "allowlist",
+  "etherscanApiKey": "",
+  "minTransferUsd": 0,
+  "minValueToGasRatio": 1,
+  "gasCostMultiplier": 1.2,
+  "maxSellTax": 0.1,
+  "minPriceConfidence": 0.5,
+  "maxPriceAgeSec": 86400,
+  "maxGasLimit": 500000,
+  "confirmations": 1,
+  "concurrency": 4,
+  "screenAllowlist": false,
+  "denyTokens": [],
+  "chains": [
+    { "preset": "ethereum", "enabled": true, "rpcUrl": "" },
+    { "preset": "base", "enabled": true, "rpcUrl": "" },
+    { "preset": "arbitrum", "enabled": true, "rpcUrl": "" },
+    { "preset": "optimism", "enabled": true, "rpcUrl": "" },
+    { "preset": "polygon", "enabled": true, "rpcUrl": "" },
+    { "preset": "bsc", "enabled": true, "rpcUrl": "" },
+    { "preset": "avalanche", "enabled": true, "rpcUrl": "" },
+    { "preset": "gravity", "enabled": true, "rpcUrl": "" },
+    { "preset": "robinhood", "enabled": true, "rpcUrl": "" }
+  ]
+}
